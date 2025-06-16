@@ -1,0 +1,27 @@
+# fake_flagged_process.py
+import os
+import time
+import logging
+
+logging.basicConfig(filename="flagged_process.log", level=logging.INFO)
+
+def main():
+    pid = os.getpid()
+    logging.info(f"Running fake flagged process with PID {pid}")
+    print(f"Fake flagged process running with PID: {pid}")
+    
+    count = 0
+    while True:
+        logging.info(f"Process {pid} still running... Count: {count}")
+        print(f"Running... {count}")
+
+        # Simulate a dangerous syscall (e.g., uname)
+        print("Trying syscall: uname")
+        info = os.uname()
+        print(f"  Sysname: {info.sysname}")
+
+        count += 1
+        time.sleep(2)
+
+if __name__ == "__main__":
+    main()

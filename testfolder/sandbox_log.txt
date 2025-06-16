@@ -1,0 +1,417 @@
+2025-04-18 18:24:51,557 [INFO] 📊 Process Information for PID 19885:
+2025-04-18 18:24:51,561 [INFO] exe: /usr/bin/python3.12
+2025-04-18 18:24:51,564 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-18 18:24:51,565 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-18 18:24:51,568 [INFO] status: sleeping
+2025-04-18 18:24:51,568 [INFO] name: python3
+2025-04-18 18:24:51,570 [INFO] pid: 19885
+2025-04-18 18:24:51,572 [INFO] parent_pid: 19878
+2025-04-18 18:24:51,572 [INFO] create_time: 1745000689.29
+2025-04-18 18:24:51,574 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=104, mode='a', flags=558081)]
+2025-04-18 18:24:51,575 [INFO] connections: []
+2025-04-18 18:24:51,579 [INFO] threads: [pthread(id=19885, user_time=0.12, system_time=0.04)]
+2025-04-18 18:24:51,581 [INFO] memory_percent: 0.30376106284056986
+2025-04-18 18:24:51,581 [INFO] cpu_percent: 0.0
+2025-04-18 18:24:51,604 [INFO] 📦 Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 18:24:51,608 [INFO] 🔎 Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 18:24:51,611 [INFO] 📌 Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 18:24:51,626 [INFO] 📦 Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-18 18:24:51,634 [INFO] 🔍 Detected file type: python
+2025-04-18 18:24:51,657 [INFO] 🛑 Terminated process with PID 19885
+2025-04-18 18:24:51,666 [INFO] 📝 Dockerfile created.
+2025-04-18 18:24:51,671 [INFO] 🐳 Building Docker image...
+2025-04-18 18:24:53,653 [INFO] ✅ Docker image built successfully.
+2025-04-18 18:24:53,653 [INFO] 🚀 Running container with seccomp profile...
+2025-04-18 18:24:55,348 [INFO] ✅ Container executed successfully.
+2025-04-18 18:24:55,350 [INFO] 📤 Output:
+Fake flagged process running with PID: 1
+Running... 0
+Trying syscall: uname
+2025-04-18 18:24:55,350 [WARNING] ⚠️ Errors:
+Traceback (most recent call last):
+  File "/sandbox/flagged_file.py", line 27, in <module>
+    main()
+  File "/sandbox/flagged_file.py", line 20, in main
+    info = os.uname()
+           ^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2025-04-18 18:24:55,351 [INFO] 🧹 Removed file: /tmp/sandbox_0145b5d7/flagged_process.log
+2025-04-18 18:24:55,351 [INFO] 🧹 Removed file: /tmp/sandbox_0145b5d7/flagged_file.py
+2025-04-18 18:24:55,354 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 18:24:55,355 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 18:24:55,359 [INFO] 🧼 Removed sandbox directory: /tmp/sandbox_0145b5d7
+2025-04-18 19:04:46,180 [INFO] 📊 Process Information for PID 22254:
+2025-04-18 19:04:46,199 [INFO] exe: /usr/bin/python3.12
+2025-04-18 19:04:46,200 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-18 19:04:46,203 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-18 19:04:46,203 [INFO] status: sleeping
+2025-04-18 19:04:46,204 [INFO] name: python3
+2025-04-18 19:04:46,204 [INFO] pid: 22254
+2025-04-18 19:04:46,204 [INFO] parent_pid: 22250
+2025-04-18 19:04:46,205 [INFO] create_time: 1745003083.93
+2025-04-18 19:04:46,207 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=104, mode='a', flags=558081)]
+2025-04-18 19:04:46,211 [INFO] connections: []
+2025-04-18 19:04:46,225 [INFO] threads: [pthread(id=22254, user_time=0.11, system_time=0.04)]
+2025-04-18 19:04:46,235 [INFO] memory_percent: 0.3005295621720532
+2025-04-18 19:04:46,236 [INFO] cpu_percent: 0.0
+2025-04-18 19:04:46,253 [INFO] 📦 Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 19:04:46,255 [INFO] 🔎 Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:04:46,256 [INFO] 📌 Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:04:46,260 [INFO] 📦 Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-18 19:04:46,261 [INFO] 🔍 Detected file type: python
+2025-04-18 19:04:46,271 [INFO] 🛑 Terminated process with PID 22254
+2025-04-18 19:04:46,273 [INFO] 📝 Dockerfile created.
+2025-04-18 19:04:46,274 [INFO] 🐳 Building Docker image...
+2025-04-18 19:04:50,491 [INFO] ✅ Docker image built successfully.
+2025-04-18 19:04:50,492 [INFO] 🚀 Running container with seccomp profile...
+2025-04-18 19:04:53,374 [INFO] ✅ Container executed successfully.
+2025-04-18 19:04:53,376 [INFO] 📤 Output:
+Fake flagged process running with PID: 1
+Running... 0
+Trying syscall: uname
+2025-04-18 19:04:53,379 [WARNING] ⚠️ Errors:
+Traceback (most recent call last):
+  File "/sandbox/flagged_file.py", line 27, in <module>
+    main()
+  File "/sandbox/flagged_file.py", line 20, in main
+    info = os.uname()
+           ^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2025-04-18 19:04:53,385 [INFO] 🧹 Removed file: /tmp/sandbox_deea9eb8/flagged_process.log
+2025-04-18 19:04:53,390 [INFO] 🧹 Removed file: /tmp/sandbox_deea9eb8/flagged_file.py
+2025-04-18 19:04:53,391 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:04:53,393 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 19:04:53,394 [INFO] 🧼 Removed sandbox directory: /tmp/sandbox_deea9eb8
+2025-04-18 19:05:16,359 [INFO] 📊 Process Information for PID 22471:
+2025-04-18 19:05:16,360 [INFO] exe: /usr/bin/python3.12
+2025-04-18 19:05:16,361 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-18 19:05:16,362 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-18 19:05:16,364 [INFO] status: sleeping
+2025-04-18 19:05:16,364 [INFO] name: python3
+2025-04-18 19:05:16,364 [INFO] pid: 22471
+2025-04-18 19:05:16,364 [INFO] parent_pid: 22468
+2025-04-18 19:05:16,364 [INFO] create_time: 1745003114.12
+2025-04-18 19:05:16,365 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=104, mode='a', flags=558081)]
+2025-04-18 19:05:16,365 [INFO] connections: []
+2025-04-18 19:05:16,365 [INFO] threads: [pthread(id=22471, user_time=0.11, system_time=0.04)]
+2025-04-18 19:05:16,365 [INFO] memory_percent: 0.3005295621720532
+2025-04-18 19:05:16,365 [INFO] cpu_percent: 0.0
+2025-04-18 19:05:16,370 [INFO] 📦 Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 19:05:16,373 [INFO] 🔎 Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:05:16,373 [INFO] 📌 Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:05:16,376 [INFO] 📦 Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-18 19:05:16,377 [INFO] 🔍 Detected file type: python
+2025-04-18 19:05:16,381 [INFO] 🛑 Terminated process with PID 22471
+2025-04-18 19:05:16,385 [INFO] 📝 Dockerfile created.
+2025-04-18 19:05:16,386 [INFO] 🐳 Building Docker image...
+2025-04-18 19:05:18,178 [INFO] ✅ Docker image built successfully.
+2025-04-18 19:05:18,178 [INFO] 🚀 Running container with seccomp profile...
+2025-04-18 19:05:28,209 [WARNING] ⏱️ Docker container timed out. Likely infinite loop.
+2025-04-18 19:05:28,210 [INFO] 🧹 Removed file: /tmp/sandbox_2ba13abd/flagged_process.log
+2025-04-18 19:05:28,210 [INFO] 🧹 Removed file: /tmp/sandbox_2ba13abd/flagged_file.py
+2025-04-18 19:05:28,214 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-18 19:05:28,216 [INFO] 🧹 Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-18 19:05:28,216 [INFO] 🧼 Removed sandbox directory: /tmp/sandbox_2ba13abd
+2025-04-19 05:16:13,788 [INFO]  Process Information for PID 3963:
+2025-04-19 05:16:13,790 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:16:13,790 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:16:13,790 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:16:13,791 [INFO] status: sleeping
+2025-04-19 05:16:13,791 [INFO] name: python3
+2025-04-19 05:16:13,792 [INFO] pid: 3963
+2025-04-19 05:16:13,794 [INFO] parent_pid: 3962
+2025-04-19 05:16:13,795 [INFO] create_time: 1745039770.94
+2025-04-19 05:16:13,795 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:16:13,795 [INFO] connections: []
+2025-04-19 05:16:13,796 [INFO] threads: [pthread(id=3963, user_time=0.1, system_time=0.11)]
+2025-04-19 05:16:13,796 [INFO] memory_percent: 0.3005332040717402
+2025-04-19 05:16:13,799 [INFO] cpu_percent: 0.0
+2025-04-19 05:16:13,806 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:16:13,807 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:16:13,807 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:16:13,808 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:16:13,812 [INFO] Detected file type: python
+2025-04-19 05:16:13,815 [INFO]  Terminated process with PID 3963
+2025-04-19 05:16:13,816 [INFO]  Dockerfile created.
+2025-04-19 05:16:13,816 [INFO]  Building Docker image...
+2025-04-19 05:16:31,917 [ERROR]  Docker build failed: Command '['docker', 'build', '-t', 'sandbox_image_990721b6', '.']' returned non-zero exit status 1.
+2025-04-19 05:17:38,971 [INFO]  Process Information for PID 4456:
+2025-04-19 05:17:38,976 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:17:38,976 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:17:38,976 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:17:38,977 [INFO] status: sleeping
+2025-04-19 05:17:38,977 [INFO] name: python3
+2025-04-19 05:17:38,977 [INFO] pid: 4456
+2025-04-19 05:17:38,980 [INFO] parent_pid: 4455
+2025-04-19 05:17:38,982 [INFO] create_time: 1745039856.13
+2025-04-19 05:17:38,982 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=204, mode='a', flags=558081)]
+2025-04-19 05:17:38,982 [INFO] connections: []
+2025-04-19 05:17:38,982 [INFO] threads: [pthread(id=4456, user_time=0.09, system_time=0.04)]
+2025-04-19 05:17:38,983 [INFO] memory_percent: 0.3005332040717402
+2025-04-19 05:17:38,983 [INFO] cpu_percent: 0.0
+2025-04-19 05:17:38,996 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:17:38,998 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:17:38,999 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:17:39,005 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:17:39,005 [INFO] Detected file type: python
+2025-04-19 05:17:39,011 [INFO]  Terminated process with PID 4456
+2025-04-19 05:17:39,014 [INFO]  Dockerfile created.
+2025-04-19 05:17:39,014 [INFO]  Building Docker image...
+2025-04-19 05:17:40,933 [INFO]  Docker image built successfully.
+2025-04-19 05:17:40,936 [INFO]  Running container with seccomp profile...
+2025-04-19 05:17:42,429 [INFO] Container executed successfully.
+2025-04-19 05:17:42,432 [WARNING]  Errors:
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: exec: "python3": executable file not found in $PATH: unknown
+
+Run 'docker run --help' for more information
+2025-04-19 05:17:42,434 [INFO]  Removed file: /tmp/sandbox_c523ffee/flagged_process.log
+2025-04-19 05:17:42,437 [INFO]  Removed file: /tmp/sandbox_c523ffee/flagged_file.py
+2025-04-19 05:17:42,439 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:17:42,442 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:17:42,444 [INFO]  Removed sandbox directory: /tmp/sandbox_c523ffee
+2025-04-19 05:18:34,467 [INFO]  Process Information for PID 4654:
+2025-04-19 05:18:34,473 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:18:34,474 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:18:34,476 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:18:34,478 [INFO] status: sleeping
+2025-04-19 05:18:34,480 [INFO] name: python3
+2025-04-19 05:18:34,482 [INFO] pid: 4654
+2025-04-19 05:18:34,485 [INFO] parent_pid: 4653
+2025-04-19 05:18:34,488 [INFO] create_time: 1745039911.63
+2025-04-19 05:18:34,488 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:18:34,490 [INFO] connections: []
+2025-04-19 05:18:34,492 [INFO] threads: [pthread(id=4654, user_time=0.1, system_time=0.03)]
+2025-04-19 05:18:34,492 [INFO] memory_percent: 0.3005332040717402
+2025-04-19 05:18:34,498 [INFO] cpu_percent: 0.0
+2025-04-19 05:18:34,513 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:18:34,516 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:18:34,519 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:18:34,523 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:18:34,525 [INFO] Detected file type: python
+2025-04-19 05:18:34,532 [INFO]  Terminated process with PID 4654
+2025-04-19 05:18:34,535 [INFO]  Dockerfile created.
+2025-04-19 05:18:34,537 [INFO]  Building Docker image...
+2025-04-19 05:18:56,400 [INFO]  Docker image built successfully.
+2025-04-19 05:18:56,404 [INFO]  Running container with seccomp profile...
+2025-04-19 05:18:58,151 [INFO] Container executed successfully.
+2025-04-19 05:18:58,151 [INFO] Output:
+Fake flagged process running with PID: 1
+Running... 0
+Trying syscall: uname
+2025-04-19 05:18:58,152 [WARNING]  Errors:
+Traceback (most recent call last):
+  File "/sandbox/flagged_file.py", line 26, in <module>
+    main()
+  File "/sandbox/flagged_file.py", line 19, in main
+    info = os.uname()
+           ^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2025-04-19 05:18:58,153 [INFO]  Removed file: /tmp/sandbox_d93e4a19/flagged_process.log
+2025-04-19 05:18:58,154 [INFO]  Removed file: /tmp/sandbox_d93e4a19/flagged_file.py
+2025-04-19 05:18:58,155 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:18:58,156 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:18:58,157 [INFO]  Removed sandbox directory: /tmp/sandbox_d93e4a19
+2025-04-19 05:19:15,069 [INFO]  Process Information for PID 5005:
+2025-04-19 05:19:15,073 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:19:15,078 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:19:15,080 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:19:15,081 [INFO] status: sleeping
+2025-04-19 05:19:15,082 [INFO] name: python3
+2025-04-19 05:19:15,084 [INFO] pid: 5005
+2025-04-19 05:19:15,085 [INFO] parent_pid: 4994
+2025-04-19 05:19:15,086 [INFO] create_time: 1745039952.24
+2025-04-19 05:19:15,088 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:19:15,090 [INFO] connections: []
+2025-04-19 05:19:15,093 [INFO] threads: [pthread(id=5005, user_time=0.09, system_time=0.04)]
+2025-04-19 05:19:15,096 [INFO] memory_percent: 0.30376474390046854
+2025-04-19 05:19:15,097 [INFO] cpu_percent: 0.0
+2025-04-19 05:19:15,111 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:19:15,114 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:19:15,115 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:19:15,123 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:19:15,128 [INFO] Detected file type: python
+2025-04-19 05:19:15,137 [INFO]  Terminated process with PID 5005
+2025-04-19 05:19:15,143 [INFO]  Dockerfile created.
+2025-04-19 05:19:15,146 [INFO]  Building Docker image...
+2025-04-19 05:19:46,490 [INFO]  Docker image built successfully.
+2025-04-19 05:19:46,490 [INFO]  Running container with seccomp profile...
+2025-04-19 05:19:56,510 [WARNING] ⏱ Docker container timed out. Likely infinite loop.
+2025-04-19 05:19:56,512 [INFO]  Removed file: /tmp/sandbox_4e5a5bd9/flagged_process.log
+2025-04-19 05:19:56,513 [INFO]  Removed file: /tmp/sandbox_4e5a5bd9/flagged_file.py
+2025-04-19 05:19:56,518 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:19:56,518 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:19:56,523 [INFO]  Removed sandbox directory: /tmp/sandbox_4e5a5bd9
+2025-04-19 05:21:25,903 [INFO]  Process Information for PID 5750:
+2025-04-19 05:21:25,904 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:21:25,907 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:21:25,907 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:21:25,908 [INFO] status: sleeping
+2025-04-19 05:21:25,908 [INFO] name: python3
+2025-04-19 05:21:25,915 [INFO] pid: 5750
+2025-04-19 05:21:25,916 [INFO] parent_pid: 5749
+2025-04-19 05:21:25,918 [INFO] create_time: 1745040083.09
+2025-04-19 05:21:25,921 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:21:25,922 [INFO] connections: []
+2025-04-19 05:21:25,924 [INFO] threads: [pthread(id=5750, user_time=0.1, system_time=0.02)]
+2025-04-19 05:21:25,925 [INFO] memory_percent: 0.30376474390046854
+2025-04-19 05:21:25,925 [INFO] cpu_percent: 0.0
+2025-04-19 05:21:25,936 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:21:25,938 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:21:25,940 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:21:25,948 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:21:25,949 [INFO] Detected file type: python
+2025-04-19 05:21:25,961 [INFO]  Terminated process with PID 5750
+2025-04-19 05:21:25,969 [INFO]  Dockerfile created.
+2025-04-19 05:21:25,969 [INFO]  Building Docker image...
+2025-04-19 05:21:27,857 [INFO]  Docker image built successfully.
+2025-04-19 05:21:27,858 [INFO]  Running container with seccomp profile...
+2025-04-19 05:21:37,887 [WARNING] ⏱ Docker container timed out. Likely infinite loop.
+2025-04-19 05:21:37,891 [INFO]  Removed file: /tmp/sandbox_fb30b243/flagged_process.log
+2025-04-19 05:21:37,892 [INFO]  Removed file: /tmp/sandbox_fb30b243/flagged_file.py
+2025-04-19 05:21:37,894 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:21:37,900 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:21:37,902 [INFO]  Removed sandbox directory: /tmp/sandbox_fb30b243
+2025-04-19 05:22:37,746 [INFO]  Process Information for PID 6059:
+2025-04-19 05:22:37,748 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:22:37,759 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:22:37,760 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:22:37,760 [INFO] status: sleeping
+2025-04-19 05:22:37,762 [INFO] name: python3
+2025-04-19 05:22:37,766 [INFO] pid: 6059
+2025-04-19 05:22:37,771 [INFO] parent_pid: 6058
+2025-04-19 05:22:37,771 [INFO] create_time: 1745040154.92
+2025-04-19 05:22:37,772 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:22:37,776 [INFO] connections: []
+2025-04-19 05:22:37,781 [INFO] threads: [pthread(id=6059, user_time=0.1, system_time=0.04)]
+2025-04-19 05:22:37,781 [INFO] memory_percent: 0.3005332040717402
+2025-04-19 05:22:37,782 [INFO] cpu_percent: 0.0
+2025-04-19 05:22:37,803 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:22:37,805 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:22:37,806 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:22:37,808 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:22:37,810 [INFO] Detected file type: python
+2025-04-19 05:22:37,817 [INFO]  Terminated process with PID 6059
+2025-04-19 05:22:37,819 [INFO]  Dockerfile created.
+2025-04-19 05:22:37,820 [INFO]  Building Docker image...
+2025-04-19 05:22:39,542 [INFO]  Docker image built successfully.
+2025-04-19 05:22:39,543 [INFO]  Running container with seccomp profile...
+2025-04-19 05:22:41,315 [INFO] Container executed successfully.
+2025-04-19 05:22:41,316 [INFO] Output:
+Fake flagged process running with PID: 1
+Running... 0
+Trying syscall: uname
+2025-04-19 05:22:41,316 [WARNING]  Errors:
+Traceback (most recent call last):
+  File "/sandbox/flagged_file.py", line 26, in <module>
+    main()
+  File "/sandbox/flagged_file.py", line 19, in main
+    info = os.uname()
+           ^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2025-04-19 05:22:41,317 [INFO]  Removed file: /tmp/sandbox_d0e9bda6/flagged_process.log
+2025-04-19 05:22:41,317 [INFO]  Removed file: /tmp/sandbox_d0e9bda6/flagged_file.py
+2025-04-19 05:22:41,319 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:22:41,320 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:22:41,323 [INFO]  Removed sandbox directory: /tmp/sandbox_d0e9bda6
+2025-04-19 05:29:22,153 [INFO]  Process Information for PID 6677:
+2025-04-19 05:29:22,154 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:29:22,155 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:29:22,157 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:29:22,158 [INFO] status: sleeping
+2025-04-19 05:29:22,158 [INFO] name: python3
+2025-04-19 05:29:22,158 [INFO] pid: 6677
+2025-04-19 05:29:22,159 [INFO] parent_pid: 6676
+2025-04-19 05:29:22,159 [INFO] create_time: 1745040559.34
+2025-04-19 05:29:22,160 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:29:22,160 [INFO] connections: []
+2025-04-19 05:29:22,161 [INFO] threads: [pthread(id=6677, user_time=0.1, system_time=0.04)]
+2025-04-19 05:29:22,161 [INFO] memory_percent: 0.30376474390046854
+2025-04-19 05:29:22,161 [INFO] cpu_percent: 0.0
+2025-04-19 05:29:22,164 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:29:22,165 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:29:22,165 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:29:22,167 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:29:22,168 [INFO] Detected file type: python
+2025-04-19 05:29:22,173 [INFO]  Terminated process with PID 6677
+2025-04-19 05:29:22,174 [INFO]  Dockerfile created.
+2025-04-19 05:29:22,174 [INFO]  Building Docker image...
+2025-04-19 05:29:23,826 [INFO]  Docker image built successfully.
+2025-04-19 05:29:23,827 [INFO]  Running container with seccomp profile...
+2025-04-19 05:29:25,420 [INFO] Container executed successfully.
+2025-04-19 05:29:25,422 [INFO] Output:
+Fake flagged process running with PID: 1
+Running... 0
+Trying syscall: uname
+2025-04-19 05:29:25,422 [WARNING]  Errors:
+Traceback (most recent call last):
+  File "/sandbox/flagged_file.py", line 26, in <module>
+    main()
+  File "/sandbox/flagged_file.py", line 19, in main
+    info = os.uname()
+           ^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2025-04-19 05:29:25,429 [INFO]  Removed file: /tmp/sandbox_8954a6cc/flagged_process.log
+2025-04-19 05:29:25,430 [INFO]  Removed file: /tmp/sandbox_8954a6cc/flagged_file.py
+2025-04-19 05:29:25,430 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:29:25,430 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:29:25,434 [INFO]  Removed sandbox directory: /tmp/sandbox_8954a6cc
+2025-04-19 05:32:56,564 [INFO]  Process Information for PID 6910:
+2025-04-19 05:32:56,568 [INFO] exe: /usr/bin/python3.12
+2025-04-19 05:32:56,573 [INFO] args: ['python3', 'flagged_file.py']
+2025-04-19 05:32:56,578 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-04-19 05:32:56,578 [INFO] status: sleeping
+2025-04-19 05:32:56,580 [INFO] name: python3
+2025-04-19 05:32:56,581 [INFO] pid: 6910
+2025-04-19 05:32:56,583 [INFO] parent_pid: 6909
+2025-04-19 05:32:56,583 [INFO] create_time: 1745040773.75
+2025-04-19 05:32:56,585 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=102, mode='a', flags=558081)]
+2025-04-19 05:32:56,586 [INFO] connections: []
+2025-04-19 05:32:56,587 [INFO] threads: [pthread(id=6910, user_time=0.1, system_time=0.04)]
+2025-04-19 05:32:56,589 [INFO] memory_percent: 0.3005332040717402
+2025-04-19 05:32:56,590 [INFO] cpu_percent: 0.0
+2025-04-19 05:32:56,601 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:32:56,603 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:32:56,605 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:32:56,610 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-04-19 05:32:56,610 [INFO] Detected file type: python
+2025-04-19 05:32:56,618 [INFO]  Terminated process with PID 6910
+2025-04-19 05:32:56,622 [INFO]  Dockerfile created.
+2025-04-19 05:32:56,623 [INFO]  Building Docker image...
+2025-04-19 05:32:58,392 [INFO]  Docker image built successfully.
+2025-04-19 05:32:58,394 [INFO]  Running container with seccomp profile...
+2025-04-19 05:33:08,422 [WARNING] ⏱ Docker container timed out. Likely infinite loop.
+2025-04-19 05:33:08,424 [INFO]  Removed file: /tmp/sandbox_75bdd154/flagged_process.log
+2025-04-19 05:33:08,424 [INFO]  Removed file: /tmp/sandbox_75bdd154/flagged_file.py
+2025-04-19 05:33:08,425 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-04-19 05:33:08,427 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-04-19 05:33:08,428 [INFO]  Removed sandbox directory: /tmp/sandbox_75bdd154
+2025-06-16 07:31:12,188 [INFO]  Process Information for PID 5968:
+2025-06-16 07:31:12,192 [INFO] exe: /usr/bin/python3.12
+2025-06-16 07:31:12,193 [INFO] args: ['python3', 'flagged_file.py']
+2025-06-16 07:31:12,194 [INFO] cwd: /home/shubhro/Shubhro/OS Project
+2025-06-16 07:31:12,194 [INFO] status: sleeping
+2025-06-16 07:31:12,196 [INFO] name: python3
+2025-06-16 07:31:12,197 [INFO] pid: 5968
+2025-06-16 07:31:12,199 [INFO] parent_pid: 5966
+2025-06-16 07:31:12,199 [INFO] create_time: 1750059069.97
+2025-06-16 07:31:12,199 [INFO] open_files: [popenfile(path='/home/shubhro/Shubhro/OS Project/flagged_process.log', fd=3, position=945, mode='a', flags=558081)]
+2025-06-16 07:31:12,199 [INFO] connections: []
+2025-06-16 07:31:12,200 [INFO] threads: [pthread(id=5968, user_time=0.07, system_time=0.02)]
+2025-06-16 07:31:12,201 [INFO] memory_percent: 0.30376290335936723
+2025-06-16 07:31:12,202 [INFO] cpu_percent: 0.0
+2025-06-16 07:31:12,210 [INFO]  Copied open file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-06-16 07:31:12,211 [INFO]  Trying path: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-06-16 07:31:12,211 [INFO]  Identified main script from args: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-06-16 07:31:12,214 [INFO] Copied main script /home/shubhro/Shubhro/OS Project/flagged_file.py to sandbox.
+2025-06-16 07:31:12,214 [INFO] Detected file type: python
+2025-06-16 07:31:12,218 [INFO]  Terminated process with PID 5968
+2025-06-16 07:31:12,221 [INFO]  Dockerfile created.
+2025-06-16 07:31:12,221 [INFO]  Building Docker image...
+2025-06-16 07:31:18,475 [INFO]  Docker image built successfully.
+2025-06-16 07:31:18,482 [INFO]  Running container with seccomp profile...
+2025-06-16 07:31:28,510 [WARNING] ⏱ Docker container timed out. Likely infinite loop.
+2025-06-16 07:31:28,512 [INFO]  Removed file: /tmp/sandbox_2df50401/flagged_process.log
+2025-06-16 07:31:28,512 [INFO]  Removed file: /tmp/sandbox_2df50401/flagged_file.py
+2025-06-16 07:31:28,514 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_process.log
+2025-06-16 07:31:28,516 [INFO]  Removed file: /home/shubhro/Shubhro/OS Project/flagged_file.py
+2025-06-16 07:31:28,517 [INFO]  Removed sandbox directory: /tmp/sandbox_2df50401

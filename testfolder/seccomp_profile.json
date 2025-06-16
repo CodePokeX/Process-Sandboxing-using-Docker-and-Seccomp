@@ -1,0 +1,28 @@
+{
+  "defaultAction": "SCMP_ACT_ALLOW",
+  "syscalls": [
+    {
+      "names": [
+        "uname",
+        "unshare", 
+        "clone", 
+        "clone3", 
+        "mount", 
+        "umount2", 
+        "pivot_root", 
+        "kexec_load", 
+        "bpf", 
+        "ptrace", 
+        "keyctl", 
+        "open_by_handle_at", 
+        "init_module", 
+        "finit_module",
+        "setns", 
+        "sysctl", 
+        "chmod", 
+        "chroot"
+      ],
+      "action": "SCMP_ACT_ERRNO"
+    }
+  ]
+}
