@@ -52,7 +52,7 @@ cp flagged_file.txt flagged_file.py
 
 ### 3. Install psutil
 
--Make a new python virtual environment and then install psutil
+- Make a new python virtual environment and then install psutil
 
 ```bash
 pip install psutil
